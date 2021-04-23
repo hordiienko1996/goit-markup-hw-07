@@ -277,7 +277,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/studio/hero-img.jpg);
+    url(../images/webstudio/hero/bg.jpg);
 }
 
 .hero__title {
@@ -340,7 +340,6 @@ img {
   content: " ";
   display: block;
   height: 120px;
-  background-image: url(../images/icon/antenna.svg);
   background-size: 70px 70px;
   background-repeat: no-repeat;
   background-position: center;
@@ -349,19 +348,19 @@ img {
 }
 
 .features__icon-antenna::before {
-  background-image: url(../images/icon/antenna.svg);
+  background-image: url(../images/icon/features/antenna.svg);
 }
 
 .features__icon-clock::before {
-  background-image: url(../images/icon/clock.svg);
+  background-image: url(../images/icon/features/clock.svg);
 }
 
 .features__icon-diagram::before {
-  background-image: url(../images/icon/diagram.svg);
+  background-image: url(../images/icon/features/diagram.svg);
 }
 
 .features__icon-astronaut::before {
-  background-image: url(../images/icon/astronaut.svg);
+  background-image: url(../images/icon/features/astronaut.svg);
 }
 
 /* About */
