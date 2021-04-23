@@ -53,7 +53,6 @@ img {
   font-style: normal;
 }
 
-/* Скрытие маркеров на списках */
 .list {
   list-style: none;
   padding-left: 0;
@@ -61,7 +60,6 @@ img {
   margin-bottom: 0;
 }
 
-/* Контейнер */
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -70,7 +68,7 @@ img {
   margin-left: auto;
 }
 
-/* Шапка страницы */
+/* Header */
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -85,19 +83,18 @@ img {
   padding-bottom: 24px;
 }
 
-/* Навигация */
+/* Navigation */
 .navigation {
   display: flex;
   align-items: center;
 }
 
-/* Логотип */
+/* Logo */
 .logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
   color: var(--logo-color);
   text-decoration: none;
 }
@@ -106,7 +103,6 @@ img {
   color: var(--accent-color);
 }
 
-/* Ссылка */
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -115,7 +111,6 @@ img {
   text-decoration: none;
 }
 
-/* Сетка */
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -129,7 +124,6 @@ img {
   margin-top: 30px;
 }
 
-/* Иконки социальных сетей */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -147,7 +141,6 @@ img {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-
   transition: fill var(--animation), background-color var(--animation);
 }
 
@@ -167,7 +160,6 @@ img {
   fill: var(--primary-white-color);
 }
 
-/* Кнопка */
 .button {
   padding: 10px 32px;
   min-width: 200px;
@@ -183,7 +175,6 @@ img {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   text-decoration: none;
-
   transition: background-color var(--animation), box-shadow var(--animation);
 }
 
@@ -191,8 +182,6 @@ img {
 .button:focus {
   background-color: #188ce8;
 }
-
-/* Навигация сайта */
 
 .site-nav,
 .contact-nav {
@@ -208,7 +197,6 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--title-color);
-
   transition: color var(--animation);
 }
 
@@ -227,7 +215,6 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-
   display: block;
   width: 100%;
   height: 4px;
@@ -242,12 +229,9 @@ img {
 .contact-nav__link {
   display: flex;
   align-items: center;
-
   padding-top: 32px;
   padding-bottom: 32px;
-
   color: var(--primary-text-color);
-
   transition: color var(--animation);
 }
 
@@ -272,7 +256,7 @@ img {
 
 /* index.html */
 
-/* Герой */
+/* Hero */
 
 .hero {
   padding-top: 200px;
@@ -299,17 +283,13 @@ img {
 .hero__title {
   width: 697px;
   margin: 0 auto 31px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--primary-white-color);
 }
-
-/* Секции */
 
 .section {
   padding-top: 94px;
@@ -318,16 +298,13 @@ img {
 
 .section__title {
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
   color: var(--title-color);
 }
 
-/* Скрывающий класс для заголовков */
 .title--visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -339,7 +316,7 @@ img {
   overflow: hidden;
 }
 
-/*  Особенности  */
+/* Features */
 
 .features {
   padding-bottom: 0;
@@ -348,12 +325,10 @@ img {
 .features__title {
   margin-bottom: 10px;
   margin-top: 30px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-
   color: var(--title-color);
 }
 
@@ -365,7 +340,6 @@ img {
   content: " ";
   display: block;
   height: 120px;
-
   background-image: url(../images/icon/antenna.svg);
   background-size: 70px 70px;
   background-repeat: no-repeat;
@@ -390,7 +364,7 @@ img {
   background-image: url(../images/icon/astronaut.svg);
 }
 
-/* Чем мы занимаемся */
+/* About */
 
 .about__item {
   --grid-item: 3;
@@ -403,24 +377,20 @@ img {
 .about__description {
   position: absolute;
   bottom: 0;
-
   background-color: rgba(47, 48, 58, 0.8);
   width: 100%;
   height: 70px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin: 0;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-
   color: var(--primary-white-color);
 }
 
-/* Наша команда */
+/* Team */
 
 .team {
   box-sizing: border-box;
@@ -443,24 +413,21 @@ img {
 
 .team__member {
   margin-bottom: 10px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-
   color: var(--title-color);
 }
 
 .team__member-profession {
   margin-bottom: 16px;
-
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-/* Клиенты */
+/* Clients */
 
 .clients__list {
   display: flex;
@@ -494,7 +461,7 @@ clients__link:focus {
   fill: currentColor;
 }
 
-/* Подвал сираницы */
+/* Footer */
 
 .footer--dark-bg {
   background-color: var(--dark-bg-color);
@@ -605,18 +572,15 @@ clients__link:focus {
   fill: var(--primary-white-color);
 }
 
-/* Модальное окно  */
+/* Modal  */
 .backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-
   opacity: 1;
-
   background-color: rgba(0, 0, 0, 0.2);
-
   transition: opacity var(--animation);
 }
 
@@ -638,7 +602,6 @@ clients__link:focus {
   max-width: 528px;
   min-height: 581px;
   padding: 40px;
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -653,9 +616,7 @@ clients__link:focus {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-
   margin-bottom: 12px;
-
   color: var(--title-color);
 }
 
@@ -664,16 +625,13 @@ clients__link:focus {
   top: 8px;
   right: 8px;
   height: 30px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
   cursor: pointer;
-
   transition: color var(--animation), background-color var(--animation);
 }
 
@@ -681,8 +639,6 @@ clients__link:focus {
 .modal__button-close:focus {
   fill: var(--accent-color);
 }
-
-/* Форма */
 
 .modal-form__field {
   display: flex;
@@ -809,9 +765,6 @@ clients__link:focus {
 }
 
 /* portfolio.html */
-
-/* Фильтр проектов */
-
 .filter__list {
   display: flex;
   justify-content: center;
@@ -829,16 +782,13 @@ clients__link:focus {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-
   color: var(--title-color);
   background-color: var(--background-button-color);
-
   transition: color var(--animation), background-color var(--animation),
     box-shadow var(--animation);
 }
@@ -847,23 +797,19 @@ clients__link:focus {
 .filter__button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
-/* Галерея проектов */
+/* Gallery projects */
 
 .projects__item {
   --grid-item: 3;
-
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-
   transition: box-shadow var(--animation);
-
   overflow: hidden;
 }
 
@@ -875,22 +821,18 @@ clients__link:focus {
 
 .projects__title {
   margin-bottom: 4px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
   color: var(--title-color);
 }
 
 .projects__filter {
   margin-bottom: 0;
-
   font-size: 16px;
   line-height: 1.87;
   font-weight: 400;
-
   color: var(--primary-text-color);
 }
 
@@ -913,9 +855,7 @@ clients__link:focus {
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
-
   transform: translateY(100%);
-
   transition: transform var(--animation);
 }
 
@@ -930,10 +870,8 @@ clients__link:focus {
   left: 0;
   width: 100%;
   height: 100%;
-
   opacity: 0;
   transform: translateY(100%);
-
   transition: transform var(--animation);
 }
 
@@ -949,10 +887,8 @@ clients__link:focus {
   padding-bottom: 63px;
   padding-left: 24px;
   margin-bottom: 0;
-
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
-
   color: var(--primary-white-color);
 }
